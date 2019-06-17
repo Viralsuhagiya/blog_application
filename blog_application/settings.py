@@ -23,12 +23,12 @@ TEMPLATE_DIRS = (
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = '!xw+u1v2#(a#3p!_xe%cbmiekn+0+c^iex0%f41yl7r8dur1#7'
+
 SECRET_KEY="os.environ.get('SECRET_KEY')"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['mydjangoblogapplication.herokuapp.com']
-
 
 # Application definition
 
