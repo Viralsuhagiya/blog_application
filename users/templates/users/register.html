@@ -4,7 +4,7 @@
 
 {% block body %}
 <div class="content-section">
-        <form method="POST" action="{% url 'login' %}">
+        <form method="POST">
             <div>
             {% csrf_token %}
             {% if messages %}
